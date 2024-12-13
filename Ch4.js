@@ -1,9 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("DOMContentLoaded triggered"); // Debug
+  console.log("DOMContentLoaded triggered"); 
 
   const box1 = document.querySelector(".box1");
 
-  // Fade-in animation for box1
   setTimeout(() => {
     box1.style.animation = "fadeIn 3s ease-in-out forwards";
   }, 300);
