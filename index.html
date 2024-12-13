@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="images/Cross.jpg" rel="icon" type="image/x-icon" />
+    <title>Prologue</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="box1 center" id="BoxC">
+        <img class="hover" src="images/Cover.png" onclick="changeCover()" id="Cover" />
+      </div>
+      <div class="box7"></div>
+
+      <div class="box2 center" id="Box1">
+        <img class="hover" src="images/Ch1-before.png" onclick="changeOne()" id="Chapter1" />
+      </div>
+
+      <div class="box7"></div>
+      <div class="box1 center" id="Box2">
+        <img class="hover" src="images/Ch2-before.png" onclick="changeTwo()" id="Chapter2" />
+      </div>
+      <div class="box4 center hide-later"></div>
+    </div>
+
+    <div class="row">
+      <div class="box1 center" id="BoxB">
+        <img src="images/KNLButton.png" class="clickable1 hover" onclick="resetAll()"  id="Button" />
+      </div>
+      <div class="box10"></div>
+        <div class="box3 center" id="Box3">
+          <img class="hover" src="images/Ch3-before.png" onclick="changeThree()" id="Chapter3" />
+        </div>
+        <div class="box6 center" id="Box4">
+          <img class="hover" src="images/Ch4-before.png" onclick="changeFour()" id="Chapter4" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="box9 center" id="BoxM">
+          <img class="hover" src="images/Band.png" onclick="changeBand()"  id="Band" />
+        </div>
+        <div class="box7"></div>
+        <div class="box8 center" id="Box5">
+          <img class="hover" src="images/Ch5-before.png" onclick="changeFive()" id="Chapter5"/>
+        </div>
+        <div class="box7"></div>
+        <div class="box8 center" id="Box6">
+          <img class="hover" src="images/Ch6-before.png" onclick="changeSix()" id="Chapter6" />
+        </div>
+      </div>
+
+      <audio src="sounds/AlbumQuote.mp3" id="Sound1"></audio>
+      <audio src="sounds/Ch1.mp3" id="Sound2"></audio>
+      <audio src="sounds/CHapter2.mp3" id="Sound3"></audio>
+      <audio src="sounds/Ch3.mp3" id="Sound4"></audio>
+      <audio src="sounds/Ch4.mp3" id="Sound5"></audio>
+      <audio src="sounds/Ch5.mp3" id="Sound6"></audio>
+      <audio src="sounds/Ch6.mp3" id="Sound7"></audio>
+      <audio src="sounds/Button.mp3" id="Sound8"></audio>
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
